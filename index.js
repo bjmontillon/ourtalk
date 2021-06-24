@@ -17,5 +17,5 @@ io.on('connection', (socket) => {
 app.use(cors());
 
 http.listen(port, () => {
-  console.log(`Socket.IO server running at http://localhost:${port}/`);
+  console.log(`Socket.IO server running at https://ourtalk-chatapp.herokuapp.com/`);
 });
